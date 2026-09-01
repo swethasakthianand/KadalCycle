@@ -1,0 +1,133 @@
+﻿export const en = {
+  app_name: "KadalCycle",
+  app_tagline: "Coastal Fish & Marine Plastic Waste Traceability Platform",
+  
+  // Roles
+  role_vendor: "Fish Vendor / Fisherman",
+  role_collector: "Collector head",
+  role_processor: "Processor Facility",
+  role_resident: "Beach Watch / Resident",
+  role_admin: "Command Center / Admin",
+  switch_role: "Switch Active Role",
+  
+  // Navigation & Common
+  home: "Home",
+  pickups: "Pickups",
+  scanner: "QR Scanner",
+  hotspot_map: "Map & Hotspots",
+  wallet: "Green Rewards",
+  audit_log: "Traceability Audit",
+  language: "Language",
+  online: "Online",
+  offline_cached: "Offline Mode",
+  close: "Close",
+  cancel: "Cancel",
+  confirm: "Confirm",
+  save: "Save",
+  submit: "Submit",
+  loading: "Loading...",
+  
+  // Vendor Dashboard
+  vendor_title: "Fish & Plastic Waste Pickup Request",
+  vendor_subtitle: "Snap a photo of waste; AI will categorize it and generate an instant Batch QR code.",
+  request_pickup_btn: "New Pickup Request",
+  harbour_location: "Harbour / Fish Market",
+  select_harbour: "Select Harbour",
+  waste_type: "Waste Type",
+  estimated_weight: "Estimated Weight (kg)",
+  capture_photo: "Take Photo / Upload",
+  analyzing_ai: "AI Analyzing Waste Stream...",
+  detected_class: "Detected Waste Category",
+  ai_confidence: "Confidence Score",
+  suggested_route: "Suggested Disposal / Valorization Route",
+  reward_points_est: "Estimated Reward Credits",
+  generate_qr_btn: "Generate Batch QR Code",
+  my_pickups: "My Waste Batches",
+  qr_badge_modal_title: "Batch QR Traceability Badge",
+  batch_id: "Batch ID",
+  show_qr_code: "Show QR Code",
+  download_badge: "Download Badge",
+  
+  // Statuses
+  status_requested: "Requested",
+  status_assigned: "Collector Assigned",
+  status_in_transit: "In-Transit",
+  status_delivered: "At Facility",
+  status_completed: "Processed & Verified",
+  
+  // Collector Dashboard
+  collector_title: "Nearby Waste Collection Dispatches",
+  collector_subtitle: "Scan the Vendor QR code at the harbour upon pickup to transfer custody.",
+  nearby_requests: "Nearby Pickup Requests",
+  accept_job: "Accept Job",
+  reject_job: "Decline",
+  scan_vendor_qr: "Scan Vendor QR",
+  in_transit_batches: "My In-Transit Loads",
+  distance: "Distance",
+  mark_delivered: "Hand Over to Processor",
+  
+  // Processor Dashboard
+  processor_title: "Valorization & Recycling Facility Portal",
+  processor_subtitle: "Scan incoming collector batch QR, verify weight, and route into high-value circular products.",
+  scan_intake_qr: "Scan Intake Batch QR",
+  actual_weight_kg: "Scale Verified Weight (kg)",
+  purity_percentage: "Purity / Quality Rating (%)",
+  destination_facility: "Valorization Route",
+  destination_compost: "Composting (Organic Bio-Fertilizer)",
+  destination_biogas: "Biogas Digester & Clean Energy",
+  destination_fishmeal: "Fish-Meal Protein Feed",
+  destination_chitin: "Chitin / Chitosan Bio-Chemical Extraction",
+  destination_pyrolysis: "Marine Plastic Pyrolysis & Polymer Pellets",
+  process_confirm_btn: "Confirm Processing & Issue Certificate",
+  certificate_title: "Certificate of Responsible Valorization",
+  vendor_credited: "Green Credits Released to Vendor",
+  
+  // Resident Dashboard
+  resident_title: "Coastal Illegal Dumping Watch",
+  resident_subtitle: "Flag illegally dumped fish or marine plastic waste on beaches with pin-drop GPS markers.",
+  report_dumping_btn: "Report Beach Dumping",
+  beach_name: "Beach / Coastal Location",
+  pin_on_map: "Tap Map to Pin Exact Location",
+  dump_photo: "Incident Photo",
+  dump_description: "Description & Landmarks",
+  severity_level: "Severity Level",
+  severity_low: "Low (Small Litter)",
+  severity_medium: "Medium (Moderate Debris)",
+  severity_high: "High (Bulk Waste)",
+  severity_critical: "Critical (Ghost Net / Bio Hazard)",
+  recent_complaints: "Recent Beach Reports",
+  
+  // Admin Dashboard
+  admin_title: "Maritime Waste Command & Analytics Center",
+  kpi_total_diverted: "Total Waste Diverted",
+  kpi_fish_processed: "Fish Waste Processed",
+  kpi_plastic_recovered: "Ocean Plastic Recovered",
+  kpi_co2_saved: "CO2 Emissions Avoided",
+  kpi_points_disbursed: "Rewards Disbursed",
+  kpi_active_collectors: "Active Collectors",
+  hotspot_heatmap: "Pollution Hotspots & Harbour Heatmap",
+  traceability_ledger: "End-to-End Traceability Ledger",
+  stream_breakdown: "Waste Stream Breakdown",
+  
+  // Waste Types
+  waste_fish_waste: "Fish Waste (Viscera/Heads)",
+  waste_plastic: "Marine Plastic (Crates/Bottles)",
+  waste_thermocol: "Thermocol Fish Boxes (EPS)",
+  waste_fishing_nets: "Ghost Fishing Nets & Ropes",
+  waste_shell_waste: "Crab / Shrimp / Shell Waste",
+  waste_mixed_waste: "Mixed Harbor Debris",
+  
+  // Wallet & Rewards
+  points: "Credits",
+  rewards_wallet: "Green Credits Wallet",
+  redeem_fuel: "Subsidized Boat Fuel Voucher",
+  redeem_ice: "Fish Preservation Ice Token",
+  redeem_net: "Fishing Net Repair Credit",
+  redeem_btn: "Redeem",
+  
+  // Scanner
+  scanner_instruction: "Align QR Code within the scanner frame",
+  manual_code_entry: "Or enter Batch QR Hash manually",
+  verify_code: "Verify Batch",
+  scan_success: "Batch Verified Successfully!"
+};

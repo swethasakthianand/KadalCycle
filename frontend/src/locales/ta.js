@@ -1,0 +1,133 @@
+﻿export const ta = {
+  app_name: "கடல் சுழற்சி",
+  app_tagline: "துறைமுக மீன் & கடல் பிளாஸ்டிக் கழிவு கண்காணிப்பு தளம்",
+  
+  // Roles
+  role_vendor: "மீன் விற்பனையாளர் / மீனவர்",
+  role_collector: "கழிவு சேகரிப்பாளர்",
+  role_processor: "மறுசுழற்சி ஆலை",
+  role_resident: "கடற்கரை புகார் பிரிவு",
+  role_admin: "நிர்வாக மையம்",
+  switch_role: "பயனர் பங்கை மாற்றுக",
+  
+  // Navigation & Common
+  home: "முகப்பு",
+  pickups: "கழிவு எடுப்புகள்",
+  scanner: "QR ஸ்கேனர்",
+  hotspot_map: "வரைபடம் & இடங்கள்",
+  wallet: "பசுமை நாணயம்",
+  audit_log: "தடமறிதல் பதிவு",
+  language: "மொழி",
+  online: "இணைப்பில் உள்ளது",
+  offline_cached: "ஆஃப்லைன் சேமிப்பு",
+  close: "மூடுக",
+  cancel: "ரத்து செய்",
+  confirm: "உறுதி செய்",
+  save: "சேமி",
+  submit: "சமர்ப்பிக்கவும்",
+  loading: "ஏற்றப்படுகிறது...",
+  
+  // Vendor Dashboard
+  vendor_title: "மீன் & பிளாஸ்டிக் கழிவு சேகரிப்பு கோரிக்கை",
+  vendor_subtitle: "புகைப்படம் எடுத்து பதிவேற்றவும், AI கழிவு வகையை கண்டறிந்து உடனடி QR குறியீட்டை உருவாக்கும்.",
+  request_pickup_btn: "புதிய கழிவு எடுப்பு கோரிக்கை",
+  harbour_location: "துறைமுகம் / மீன் சந்தை",
+  select_harbour: "துறைமுகத்தைத் தேர்ந்தெடுக்கவும்",
+  waste_type: "கழிவு வகை",
+  estimated_weight: "மதிப்பிடப்பட்ட எடை (கிலோ)",
+  capture_photo: "புகைப்படம் எடுக்கவும் / பதிவேற்றவும்",
+  analyzing_ai: "AI கழிவு பகுப்பாய்வு செய்கிறது...",
+  detected_class: "கண்டறியப்பட்ட கழிவு வகை",
+  ai_confidence: "நம்பகத்தன்மை",
+  suggested_route: "பரிந்துரைக்கப்பட்ட மறுசுழற்சி வழி",
+  reward_points_est: "மதிப்பிடப்பட்ட வெகுமதி புள்ளிகள்",
+  generate_qr_btn: "தொகுதி QR குறியீட்டை உருவாக்குக",
+  my_pickups: "எனது கழிவுத் தொகுதிகள்",
+  qr_badge_modal_title: "தொகுதி QR அடையாள அட்டை",
+  batch_id: "தொகுதி எண்",
+  show_qr_code: "QR குறியீட்டைக் காட்டு",
+  download_badge: "அடையாள அட்டையை பதிவிறக்கு",
+  
+  // Statuses
+  status_requested: "கோரப்பட்டது",
+  status_assigned: "சேகரிப்பாளர் நியமிக்கப்பட்டார்",
+  status_in_transit: "இடமாற்றத்தில் உள்ளது",
+  status_delivered: "ஆலையை அடைந்தது",
+  status_completed: "செயலாக்கம் முடிந்தது",
+  
+  // Collector Dashboard
+  collector_title: "அருகிலுள்ள கழிவு சேகரிப்பு வேலைகள்",
+  collector_subtitle: "துறைமுகத்தில் விற்பனையாளரின் QR குறியீட்டை ஸ்கேன் செய்து கழிவை எடுத்துச் செல்லுங்கள்.",
+  nearby_requests: "அருகிலுள்ள கோரிக்கைகள்",
+  accept_job: "ஏற்றுக்கொள்",
+  reject_job: "நிராகரி",
+  scan_vendor_qr: "விற்பனையாளர் QR ஸ்கேன் செய்",
+  in_transit_batches: "என்னிடம் உள்ள தொகுதிகள்",
+  distance: "தொலைவு",
+  mark_delivered: "ஆலையிடம் ஒப்படை",
+  
+  // Processor Dashboard
+  processor_title: "மறுசுழற்சி மற்றும் உயிரி ஆலை நுழைவு வாயில்",
+  processor_subtitle: "சேகரிப்பாளர் தொகுதி QR-ஐ ஸ்கேன் செய்து, எடையை உறுதிப்படுத்தி இறுதிப் பொருளாக மாற்றுங்கள்.",
+  scan_intake_qr: "உள்வரும் தொகுதி QR ஸ்கேன் செய்",
+  actual_weight_kg: "உண்மையான எடை (கிலோ)",
+  purity_percentage: "கழிவு தரம் / தூய்மை (%)",
+  destination_facility: "பயன்படுத்தப்படும் முறை",
+  destination_compost: "இயற்கை உரம் (Composting)",
+  destination_biogas: "உயிரி எரிவாயு (Biogas Digester)",
+  destination_fishmeal: "மீன் உணவு தூள் (Fish Meal)",
+  destination_chitin: "சிட்டின் பிரித்தெடுத்தல் (Chitin/Chitosan)",
+  destination_pyrolysis: "பிளாஸ்டிக் எண்ணெய் (Pyrolysis / Pellets)",
+  process_confirm_btn: "செயலாக்கத்தை உறுதிப்படுத்தி சான்றிதழ் உருவாக்கு",
+  certificate_title: "பொறுப்பான மறுசுழற்சி சான்றிதழ்",
+  vendor_credited: "விற்பனையாளருக்கு புள்ளிகள் வழங்கப்பட்டன",
+  
+  // Resident Dashboard
+  resident_title: "கடற்கரை கழிவு கொட்டுதல் புகார் பதிவு",
+  resident_subtitle: "கடற்கரையில் கொட்டப்பட்ட மீன்/பிளாஸ்டிக் கழிவுகளை வரைபடத்தில் குறித்து புகாரளிக்கவும்.",
+  report_dumping_btn: "புகாரைப் பதிவு செய்",
+  beach_name: "கடற்கரை பெயர்",
+  pin_on_map: "வரைபடத்தில் இடத்தை தேர்வு செய்யவும்",
+  dump_photo: "கழிவு புகைப்படம்",
+  dump_description: "விவரம் / அடையாளக் குறிப்புகள்",
+  severity_level: "தீவிரம்",
+  severity_low: "குறைவு",
+  severity_medium: "நடுத்தரம்",
+  severity_high: "அதிகம்",
+  severity_critical: "மிகவும் அவசரம்",
+  recent_complaints: "சமீபத்திய கடற்கரை புகார்கள்",
+  
+  // Admin Dashboard
+  admin_title: "கடலோர கழிவு மேலாண்மை கட்டுப்பாட்டு மையம்",
+  kpi_total_diverted: "மொத்த கழிவு திசைதிருப்பல்",
+  kpi_fish_processed: "பதப்படுத்தப்பட்ட மீன் கழிவு",
+  kpi_plastic_recovered: "மீட்கப்பட்ட கடல் பிளாஸ்டிக்",
+  kpi_co2_saved: "தவிர்க்கப்பட்ட CO2 உமிழ்வு",
+  kpi_points_disbursed: "வழங்கப்பட்ட புள்ளிகள்",
+  kpi_active_collectors: "செயலில் உள்ள சேகரிப்பாளர்கள்",
+  hotspot_heatmap: "மாசுபாடு ஹாட்ஸ்பாட் & துறைமுக வரைபடம்",
+  traceability_ledger: "முழுமையான தடமறிதல் தணிக்கை பதிவு",
+  stream_breakdown: "கழிவு வகை பிரிவு",
+  
+  // Waste Types
+  waste_fish_waste: "மீன் கழிவு (குடல்/தலைகள்)",
+  waste_plastic: "கடல் பிளாஸ்டிக் (பெட்டிகள்/பாட்டில்கள்)",
+  waste_thermocol: "தெர்மாகோல் பெட்டிகள் (EPS)",
+  waste_fishing_nets: "மீன்பிடி வலை (Ghost Nets)",
+  waste_shell_waste: "நண்டு / இறால் / சிப்பி ஓடு",
+  waste_mixed_waste: "கலப்பு கடற்கரை கழிவு",
+  
+  // Wallet & Rewards
+  points: "புள்ளிகள்",
+  rewards_wallet: "பசுமை நாணய பணப்பை",
+  redeem_fuel: "படகு டீசல் மானிய கூப்பன்",
+  redeem_ice: "மீன் பதப்படுத்தும் பனிக்கட்டி டோக்கன்",
+  redeem_net: "மீன்பிடி வலை பழுதுபார்ப்பு மானியம்",
+  redeem_btn: "பயன்படுத்து",
+  
+  // Scanner
+  scanner_instruction: "QR குறியீட்டை கேமராவின் முன் காட்டவும்",
+  manual_code_entry: "அல்லது கைமுறையாக குறியீட்டை உள்ளிடவும்",
+  verify_code: "சரிபார்",
+  scan_success: "வெற்றிகரமாக சரிபார்க்கப்பட்டது!"
+};
